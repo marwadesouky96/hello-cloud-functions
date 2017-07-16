@@ -1,5 +1,6 @@
 {
   "projects": {
-    "dev": "td-dev-1086b"
+    "dev": "td-dev-1086b",
+    "default": "td-dev-1086b"
   }
 }

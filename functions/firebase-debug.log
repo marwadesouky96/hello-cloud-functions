@@ -1,0 +1,28 @@
+[debug] [2017-07-12T12:20:14.189Z] ----------------------------------------------------------------------
+[debug] [2017-07-12T12:20:14.198Z] Command:      C:\Program Files\nodejs\node.exe C:\Users\Lenovo\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve --only functions
+[debug] [2017-07-12T12:20:14.200Z] CLI Version:  3.9.1
+[debug] [2017-07-12T12:20:14.200Z] Platform:     win32
+[debug] [2017-07-12T12:20:14.200Z] Node Version: v6.11.0
+[debug] [2017-07-12T12:20:14.202Z] Time:         Wed Jul 12 2017 14:20:14 GMT+0200 (Egypt Standard Time)
+[debug] [2017-07-12T12:20:14.202Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-07-12T12:20:14.256Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-07-12T12:20:14.258Z] > authorizing via signed-in user
+[debug] [2017-07-12T12:20:14.270Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/td-dev-1086b  
+ Wed Jul 12 2017 14:20:14 GMT+0200 (Egypt Standard Time)
+[debug] [2017-07-12T12:20:15.638Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-12T12:20:15.638Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/td-dev-1086b/tokens  
+ Wed Jul 12 2017 14:20:15 GMT+0200 (Egypt Standard Time)
+[debug] [2017-07-12T12:20:16.561Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Lenovo\Desktop\td-dev'...
+[info] 
+[info] i  functions: Preparing to emulate HTTPS functions. Support for other event types coming soon.
+[debug] [2017-07-12T12:20:18.788Z] >>> HTTP REQUEST GET https://appengine.googleapis.com/v1/apps/td-dev-1086b  
+ Wed Jul 12 2017 14:20:18 GMT+0200 (Egypt Standard Time)
+[debug] [2017-07-12T12:20:18.805Z] >>> HTTP REQUEST GET https://apikeys.googleapis.com/v1/projects/td-dev-1086b/apiKeys  
+ Wed Jul 12 2017 14:20:18 GMT+0200 (Egypt Standard Time)
+[debug] [2017-07-12T12:20:20.335Z] <<< HTTP RESPONSE 200
+[debug] [2017-07-12T12:20:22.075Z] <<< HTTP RESPONSE 200
+[info] +  functions: signUpWithEmailAndPassword: http://localhost:5002/td-dev-1086b/us-central1/signUpWithEmailAndPassword
+[info] +  functions: signInWithEmailAndPassword: http://localhost:5002/td-dev-1086b/us-central1/signInWithEmailAndPassword
